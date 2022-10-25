@@ -36,6 +36,8 @@ public class Ticket extends TicketAbs {
     
     public void create_ticket_price(double[][][][]price_ar) {
     	//when there is a new movie, create the ticket pricings
+        
+        
     	System.out.println("PLease enter movie name:");
     	movie = sc.nextLine();
     	System.out.println("Please enter cinema:");
